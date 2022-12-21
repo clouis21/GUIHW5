@@ -1,0 +1,12 @@
+Built a scrabble game
+Curently the game add up the score of each moved piece
+The double word value feature is working
+The drag and drop works on placing the pieces to be tabulated
+Previus value is saved
+The reset regenarate new combunation of leters and reset the board
+
+Sources:
+  Google.com
+  stackoverflow
+  class materials and link to jquery
+  

@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>scrabble</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/jquery-ui-git.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="/scrable.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <div id="Scabble-main">
+        <h1>Play Scabble</h1>
+
+        <div class="container">
+            <div class="header">
+                <div id="curr-word">Current Word: </div>
+                <div id="word-score">Word Score: 0</div>
+                <br>
+                <div id="last-word">Last Word: </div>
+                <div id="last-score">Last Score: 0</div>
+            </div>
+
+            <div id="scrabble-board"></div>
+
+            <div class="scrabble-rack"></div>
+
+            <div class="play-buttons">
+                <button id="reset-word" type="button" class="btn btn-primary">Reset Word</button>
+                <button id="submit-word" type="button" class="btn btn-warning">Submit Word</button>
+            </div>
+            <div class ="footer">          
+                <p>
+                    ©chadlouis 2022. All righ reserved. Umass-lowell GUI I
+                </p>
+            </div>
+        </div> 
+        </div>
+
+    </body>
+</html>
