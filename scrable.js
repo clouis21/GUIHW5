@@ -194,8 +194,6 @@ function compute_score() {
     }
 }
 
-
-
 $(document).ready(function () {
     create_board()
     populated_board_tiles()
